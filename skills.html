@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skills — Abhishek P</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="theme-dark">
+    <!-- NAVBAR -->
+    <header class="nav">
+      <div class="brand">Abhishek <span class="accent">P</span></div>
+
+      <div class="hamburger" id="hamburgerBtn">
+        <span></span><span></span><span></span>
+      </div>
+
+      <nav id="navMenu" class="nav-links">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link active" href="skills.html">Skills</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="content-card skills-section">
+        <!-- Heading -->
+        <h1 class="heading-lg gold">Technical Expertise</h1>
+        <p class="lede">
+          A strong mix of backend engineering, frontend basics, automation, and
+          problem-solving — built through real projects and internships.
+        </p>
+
+        <!-- Skill Cards -->
+        <div class="skills-grid">
+          <!-- Card 1 -->
+          <div class="skill-card">
+            <div class="skill-icon">💻</div>
+            <h3>Programming Languages</h3>
+            <p>Python, Java, SQL</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="skill-card">
+            <div class="skill-icon">⚙️</div>
+            <h3>Frameworks & Tools</h3>
+            <p>Flask, Django, Git, OpenAI API</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="skill-card">
+            <div class="skill-icon">📊</div>
+            <h3>Data & Databases</h3>
+            <p>Pandas, NumPy, MySQL, PostgreSQL</p>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <h2 class="heading-md gold" style="margin-top: 40px">Certifications</h2>
+        <ul class="cert-list">
+          <li>Infosys — Python Certification</li>
+          <li>HackerRank — Algorithms & Problem Solving</li>
+          <li>Programming Hero — Java</li>
+          <li>Simplilearn — Django Web Development</li>
+          <li>Java Web Dev & SQL Certifications</li>
+        </ul>
+
+        <!-- Education -->
+        <h2 class="heading-md gold">Education</h2>
+
+        <div class="edu-card">
+          <h4>B.Tech (CSE)</h4>
+          <p>Tadipatri Engineering College — 78% (Expected May 2026)</p>
+        </div>
+
+        <div class="edu-card">
+          <h4>PUC</h4>
+          <p>Govt. PU College Anekal — 76% (2021)</p>
+        </div>
+
+        <div class="edu-card">
+          <h4>SSC</h4>
+          <p>Govt High School — 81% (2019)</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>© <span id="year2"></span> Abhishek P</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+      document.getElementById("year2").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
